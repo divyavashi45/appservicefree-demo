@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-  return "Hello Azure App Service!"
+  return "Version 2 of Azure App Service"
